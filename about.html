@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <header class="header">
-            <a class="header__name" href="#">Anastasia Basalai</a>
+            <a class="header__name" href="index.html">Anastasia Basalai</a>
             <ul class="header__info">
                 <li class="header__info-item"><a class="header__link" href="#">About me</a></li>
                 <li class="header__info-item"><a class="header__link" href="#">Contacts</a></li>
@@ -24,18 +24,77 @@
             <button class="header__button"><img class="header__burger" src="images/bar.png"
                     alt="burger button"></button>
         </header>
-        <main class="about">
-            <p class="about__description">As you have seen with my works in main page I am a huge fan of The Vampire
-                Diaries series. I have watched some really good tv shows which I want to show here. Because why not?</p>
-            <div class="about__series">
-                <img class="about__arrow about__arrow__left" src="images/left-chevron.png" alt="arrow left">
-                <img class="about__image" src="images/photo_2022-11-09_23-26-00.jpg" alt="series image">
-                <img class="about__image about__image_hidden" src="images/IMG_0837.JPG" alt="series image">
-                <img class="about__image about__image_hidden" src="images/photo_2022-11-09_23-26-05.jpg"
-                    alt="series image">
-                <img class="about__arrow about__arrow__right" src="images/right-chevron.png" alt="arrow right">
-            </div>
+        <main>
+            <section class="about">
+                <p class="about__description">As you have seen with my works in main page I am a huge fan of The Vampire
+                    Diaries series. I have watched some really good tv shows which I want to show here. There's only two
+                    titles, but they are really good ones.
+                </p>
+                <div class="about__series">
+                    <img class="about__arrow about__arrow__left" src="images/left-chevron.png" alt="arrow left">
+                    <div class="about__image-wrapper">
+                        <div class="about__image-background">
+                            <img class="about__image" src="images/tvd.jpg" alt="series image">
+                        </div>
+                        <div class="about__image-description about__image-description_hidden">
+                            the vampire diaries series is my guilty pleasure, i watched it in my thirteens at first, and
+                            it
+                            impressed me so much. this series is about family, humanity and loyalty. about being human
+                            even
+                            if by definition you are not.
+                        </div>
+                    </div>
+                    <div class="about__image-wrapper about__image-wrapper_hidden">
+                        <div class="about__image-background">
+                            <img class="about__image" src="images/poi.jpg" alt="series image">
+                        </div>
+                        <div class="about__image-description about__image-description_hidden">
+                            person of interest is about artificial intelligence. here we have a nerd sold AI to the
+                            government for $1, an ex-military in suit shooting only knees, hot hacker firing two guns at
+                            the
+                            same time and former CIA employee with huge love for cool cars, guns and food. and a dog.
+                            what
+                            else do you need?
+                        </div>
+                    </div>
+                    <img class="about__arrow about__arrow__right" src="images/right-chevron.png" alt="arrow right">
+                </div>
+                <button class="about__button">Show more about this show</button>
+            </section>
+            <section class="cats">
+                <h1 class="cats__title">My cats</h1>
+                <ul class="cats__info">
+                    <li class="cats__item">
+                        <img src="images/ginny.jpg" alt="" class="cats__photo">
+                        <p class="cats__about">This is <span class="cats__name">Virginia</span> but I only use this
+                            wonderful name with vets. So for
+                            everyone she is just Ginny. Ginny this kind of very shy and clumsy cat, and she definetly a
+                            kind of chitter-chatter cat. Someday I will make Ginny.mp3 podcasts or something like this.
+                        </p>
+                    </li>
+                    <li class="cats__item">
+                        <img src="images/effy.jpg" alt="" class="cats__photo">
+                        <p class="cats__about">This is <span class="cats__name">Effy</span>, cat in the form of
+                            skittles, bun, roll, liquid or
+                            whatever exists in this universe. She is absolutely don't care about anything but her bowl
+                            of food. She sleepy, soft and funny.
+                        </p>
+                    </li>
+                </ul>
+
+            </section>
         </main>
+        <footer class="footer">
+            <p class="footer__text">You can also find me on</p>
+            <ul class="footer__socials">
+                <a class="footer__link" href="https://t.me/notnst" target="_blank"><img class="footer__icon"
+                        src="images/telegram.png" alt="telegram link"></a>
+                <a class="footer__link" href="https://www.instagram.com/no.nst/" target="_blank"><img
+                        class="footer__icon" src="images/instagram.png" alt="instagram link"></a>
+                <a class="footer__link" href="https://www.linkedin.com/in/anastasia-basalai-93587b253/"
+                    target="_blank"><img class="footer__icon" src="images/linkedin.png" alt="linkedin link"></a>
+            </ul>
+        </footer>
     </div>
     <script src="app.js"></script>
 </body>

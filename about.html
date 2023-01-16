@@ -17,19 +17,20 @@
     <div class="container">
         <header class="header">
             <a class="header__name" href="index.html">Anastasia Basalai</a>
-            <ul class="header__info">
-                <li class="header__info-item"><a class="header__link" href="#">About me</a></li>
-                <li class="header__info-item"><a class="header__link" href="#">Contacts</a></li>
-            </ul>
-            <button class="header__button"><img class="header__burger" src="images/bar.png"
-                    alt="burger button"></button>
+            <nav class="header__info">
+                <a class="header__link" href="about.html">About me</a>
+                <a class="header__link" href="contacts.html">Contacts</a>
+            </nav>
+            <button class="header__button">
+                <img class="header__burger" src="images/bar.png" alt="burger button">
+                <nav class="header__burger-menu header__burger-menu_hidden">
+                    <a class="header__burger-link" href="about.html">About me</a>
+                    <a class="header__burger-link" href="contacts.html">Contacts</a>
+                </nav>
+            </button>
         </header>
         <main>
             <section class="about">
-                <p class="about__description">As you have seen with my works in main page I am a huge fan of The Vampire
-                    Diaries series. I have watched some really good tv shows which I want to show here. There's only two
-                    titles, but they are really good ones.
-                </p>
                 <div class="about__series">
                     <img class="about__arrow about__arrow__left" src="images/left-chevron.png" alt="arrow left">
                     <div class="about__image-wrapper">
@@ -60,6 +61,10 @@
                     <img class="about__arrow about__arrow__right" src="images/right-chevron.png" alt="arrow right">
                 </div>
                 <button class="about__button">Show more about this show</button>
+                <p class="about__description">As you have seen with my works in main page I am a huge fan of The Vampire
+                    Diaries series. I have watched some really good tv shows which I want to show here. There's only two
+                    titles, but they are really good ones.
+                </p>
             </section>
             <section class="cats">
                 <h1 class="cats__title">My cats</h1>

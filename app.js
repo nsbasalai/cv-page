@@ -1,3 +1,9 @@
+let burgerButton = document.querySelector('.header__button');
+
+burgerButton.addEventListener('click', () => {
+    document.querySelector('.header__burger-menu').classList.toggle('header__burger-menu_hidden')
+})
+
 const leftButton = document.querySelector('.about__arrow__left');
 const rightButton = document.querySelector('.about__arrow__right');
 const images = document.querySelectorAll('.about__image-wrapper');

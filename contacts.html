@@ -12,17 +12,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
-<header class="header">
-    <a class="header__name" href="#">Anastasia Basalai</a>
-    <ul class="header__info">
-        <li class="header__info-item"><a class="header__link" href="#">About me</a></li>
-        <li class="header__info-item"><a class="header__link" href="#">Contacts</a></li>
-    </ul>
-    <button class="header__button"><img class="header__burger" src="images/bar.png" alt="burger button"></button>
-</header>
 
 <body>
-
+    <div class="container">
+        <header class="header">
+            <a class="header__name" href="index.html">Anastasia Basalai</a>
+            <nav class="header__info">
+                <a class="header__link" href="about.html">About me</a>
+                <a class="header__link" href="#">Contacts</a>
+            </nav>
+            <button class="header__button">
+                <img class="header__burger" src="images/bar.png" alt="burger button">
+                <nav class="header__burger-menu header__burger-menu_hidden">
+                    <a class="header__burger-link" href="about.html">About me</a>
+                    <a class="header__burger-link" href="#">Contacts</a>
+                </nav>
+            </button>
+        </header>
+        <main class="contacts">
+            <h1 class="contacts__title">You can text or call me with one of the source</h1>
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <img class="contacts__icon" src="./images/phone.png" alt="phone icon">
+                    +375 (33) 376 34 38
+                </li>
+                <li class="contacts__item">
+                    <img class="contacts__icon" src="./images/email.png" alt="email icon">
+                    nsbasalai@gmail.com
+                </li>
+            </ul>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">You can also find me on</p>
+            <ul class="footer__socials">
+                <a class="footer__link" href="https://t.me/notnst" target="_blank"><img class="footer__icon"
+                        src="images/telegram.png" alt="telegram link"></a>
+                <a class="footer__link" href="https://www.instagram.com/no.nst/" target="_blank"><img
+                        class="footer__icon" src="images/instagram.png" alt="instagram link"></a>
+                <a class="footer__link" href="https://www.linkedin.com/in/anastasia-basalai-93587b253/"
+                    target="_blank"><img class="footer__icon" src="images/linkedin.png" alt="linkedin link"></a>
+            </ul>
+        </footer>
+    </div>
+    <script src="app.js"></script>
 </body>
 
 </html>

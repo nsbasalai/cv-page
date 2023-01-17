@@ -326,6 +326,7 @@ main {
     margin: 30px 0 0;
     padding: 7px 10px;
     width: 60%;
+    color: black;
     border: 1px solid black;
     background-color: transparent;
     cursor: pointer;
@@ -390,8 +391,8 @@ main {
     padding: 100px 10% 0;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
-    'list title';
+    grid-template-areas:
+        'list title';
     grid-gap: 50px;
     box-sizing: border-box;
 }
@@ -456,7 +457,7 @@ main {
         font-size: var(--basic-font-size-mobile);
     }
 
-    .introduction__contact-button {
+    .introduction__contact-link {
         width: 40%;
         padding: 3px 0;
     }
@@ -527,6 +528,10 @@ main {
         text-align: center;
     }
 
+    .about__image-description {
+        font-size: var(--basic-font-size-mobile);
+    }
+
     .cats__info {
         flex-direction: column;
         align-items: center;
@@ -539,7 +544,7 @@ main {
         text-align: center;
     }
 
-    .contacts  {
+    .contacts {
         display: flex;
         flex-direction: column;
     }
